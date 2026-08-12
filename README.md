@@ -3,7 +3,7 @@
 I denna workshop bygger du en liten **Next.js-app med TypeScript** från grunden.
 
 Appen ska fungera som en enkel **Portfolio Coach**.
-Användaren skriver in en kort presentation av sig själv och vilka tekniker hen vill jobba med. Appen skickar datan till en API-route och får tillbaka ett typat JSON-svar med feedback.
+Användaren skriver in en kort presentation av sig själv och vilka tekniker man vill jobba med. Appen skickar datan till en API-route och får tillbaka ett typat JSON-svar med feedback.
 
 I grunduppgiften använder vi **mockad AI**. Det betyder att svaret genereras av en vanlig TypeScript-funktion. Som extra-utmaning kan du senare koppla på riktig AI, till exempel Google Gemini.
 

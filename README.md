@@ -30,20 +30,29 @@ Exempel:
 
 ```txt
 Input:
-Jag söker LIA inom frontend. Jag kan React och TypeScript och har byggt några skolprojekt.
+Namn: Sara Andersson
+Målroll: Frontend Developer Intern
+Teknikstack: React, TypeScript, Next.js
+Pitch: Jag söker LIA inom frontend och har byggt flera skolprojekt.
 
 Output:
-Score: 72
-Styrkor:
+Score: 72/100
 
+Styrkor:
 * Tydlig inriktning mot frontend
-* Relevanta tekniker
+* Relevant teknikstack
 
 Förbättra:
-
 * Beskriv ett konkret projekt
 * Förklara vad du bidrog med
-* Lägg till länk till GitHub eller demo
+
+Förbättrad pitch:
+Jag söker LIA som Frontend Developer Intern. Jag arbetar med React,
+TypeScript och Next.js och vill utvecklas i ett professionellt team.
+
+Nästa steg:
+* Lägg till ett konkret projekt
+* Länka till GitHub eller en demo
 ```
 
 ---
@@ -432,14 +441,10 @@ Låt användaren se tidigare feedback i samma session.
 
 # Reflektion
 
-Skriv kort i README eller i Codington-inlämningen:
+Svara kort i README eller i Codington-inlämningen:
 
-1. Var använde du delade typer?
-2. Varför behövde du runtime-validering?
-3. Vad betyder `idle | loading | error | ready` i din app?
-4. Vilken del var svårast?
-5. Hur skulle riktig AI förändra appen?
-6. Vad hade du förbättrat om du hade mer tid?
+Varför behöver data som kommer till API-routen valideras, även om vi använder
+TypeScript och typen `CoachRequest`?
 
 ---
 
